@@ -32,6 +32,7 @@ public class AvatarPlay : MonoBehaviour
         {
 
             canJump = false;
+
             // Avatar.GetComponent<Animator>().Play("AvatarPulaPula");
 
             StartCoroutine(jump());

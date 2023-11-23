@@ -17,7 +17,11 @@ public class GameContoller : MonoBehaviour
     public GameObject GameOverTxt;
     public GameObject ContadorTxt;
 
+
     public bool podeIniciar;
+
+
+    public GameObject changeAvatarScript;
 
     void Start()
     {
@@ -26,6 +30,10 @@ public class GameContoller : MonoBehaviour
 
     IEnumerator GameStart()
     {
+
+
+        changeAvatarScript.GetComponent<changeAvatar>().TrocarTexturaAleatoria();
+
 
         podeIniciar = false;
 
