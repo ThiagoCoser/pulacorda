@@ -1,6 +1,6 @@
 # Pula Corda - Jogo
 
-<img src="banner.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+<img src="Banner.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
 
 Jogo feito em Unity e tapete de dança para crianças do primeiro ano da Escola Educare - São Roque
 
