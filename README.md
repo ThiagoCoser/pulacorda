@@ -36,3 +36,4 @@ Espaço para pular. É recomendado um tapete de dança ou interface similar para
 - Optei por retirar o contador de pulos, favorecendo a contagem por voz da turma;
 - O mesmo com o score: inicialmente tinha pensando em utilizar um score para cada avatar, favorecendo a competição. Mas o jogo pareceu funcionar como está e assim ficará mais leve;
 - A dificuldade já está balanceada. Nara conseguiu, com muito esforço, em torno de 10 pulos. Pode-se adicionar mais dificuldade como aumento da velocidade da corda ou apertar outros botões do tapete durante os pulos da corda, mas não parece ser necessário no momento;
+- Utilizei o Antimicrox para mapear os botões do tapete;
