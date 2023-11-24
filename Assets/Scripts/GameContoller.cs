@@ -36,6 +36,7 @@ public class GameContoller : MonoBehaviour
 
 
         podeIniciar = false;
+        GameOverTxt.SetActive(false);
 
         IniciarTxt.SetActive(false);
 

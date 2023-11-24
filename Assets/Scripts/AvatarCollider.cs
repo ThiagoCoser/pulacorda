@@ -21,7 +21,7 @@ public class AvatarCollider : MonoBehaviour
 
         yield return new WaitForSeconds(3f);
         AvatarPlay.GetComponent<GameContoller>().podeIniciar = true;
-        GameOverTxt.SetActive(false);
+        // GameOverTxt.SetActive(false);
         yield return null;
     }
 
