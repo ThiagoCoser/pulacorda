@@ -11,10 +11,12 @@ public class AvatarCollider : MonoBehaviour
     public GameObject AvatarPlay;
     public GameObject Corda;
     public GameObject CordaCollider;
-
+    public GameObject GameOverSND;
 
     IEnumerator GameOver()
     {
+        GameOverSND.GetComponent<AudioSource>().Play();
+
         CordaCollider.SetActive(false);
         GameOverTxt.SetActive(true);
         Corda.GetComponent<Animator>().enabled = false;

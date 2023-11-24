@@ -7,7 +7,6 @@ public class AvatarPlay : MonoBehaviour
     public GameObject Avatar;
     public bool canJump;
 
-
     private void Start()
     {
         canJump = true;
@@ -31,6 +30,7 @@ public class AvatarPlay : MonoBehaviour
         if (Input.GetButtonUp("Space") && canJump == true)
         {
 
+            gameObject.GetComponent<AudioSource>().Play();
             canJump = false;
 
             // Avatar.GetComponent<Animator>().Play("AvatarPulaPula");
