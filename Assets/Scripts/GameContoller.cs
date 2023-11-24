@@ -31,9 +31,10 @@ public class GameContoller : MonoBehaviour
     IEnumerator GameStart()
     {
 
-
-        changeAvatarScript.GetComponent<changeAvatar>().TrocarTexturaAleatoria();
-
+        if (changeAvatarScript.GetComponent<changeAvatar>().aleatorio == true)
+        {
+            changeAvatarScript.GetComponent<changeAvatar>().TrocarTexturaAleatoria();
+        }
 
         podeIniciar = false;
         GameOverTxt.SetActive(false);

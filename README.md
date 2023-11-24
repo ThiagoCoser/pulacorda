@@ -20,7 +20,7 @@ O jogo possui a proposta de fazer um teste de usabilidade com hardwares alternat
 
 ### Como jogar
 
-Espaço para pular. É recomendado um tapete de dança ou interface similar para utilizar os pés.
+Espaço para pular. Tecla X altera para modo aleatório de avatar. Setas (esquerda e direta mudam avatar). É recomendado um tapete de dança ou interface similar para utilizar os pés.
 
 ### Recursos
 
@@ -37,3 +37,11 @@ Espaço para pular. É recomendado um tapete de dança ou interface similar para
 - O mesmo com o score: inicialmente tinha pensando em utilizar um score para cada avatar, favorecendo a competição. Mas o jogo pareceu funcionar como está e assim ficará mais leve;
 - A dificuldade já está balanceada. Nara conseguiu, com muito esforço, em torno de 10 pulos. Pode-se adicionar mais dificuldade como aumento da velocidade da corda ou apertar outros botões do tapete durante os pulos da corda, mas não parece ser necessário no momento;
 - Utilizei o Antimicrox para mapear os botões do tapete;
+
+
+### Atualizações da versão 0.6
+
+- Mudança para URP;
+- Polimentos como: sol animado, nuvens, grama e cores seguindo paleta da Peppa Pig;
+- Adição de dado para ensinar aleatoriedade (botão x) e seleção de avatar do tipo carrossel (setas esquerda e direita);
+- Adição de som de pulo e som de gameover;

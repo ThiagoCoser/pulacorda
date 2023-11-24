@@ -6,10 +6,38 @@ public class changeAvatar : MonoBehaviour
     public Material materialAlvo; // Arraste o material desejado para esta variável no Inspector
     private List<Texture2D> texturas = new List<Texture2D>();
 
+    public bool aleatorio;
+    public GameObject diceIcon;
+
     void Start()
     {
+        aleatorio = true;
         CarregarTexturas();
         TrocarTexturaAleatoria();
+    }
+
+
+    private void Update()
+    {
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+
+            if (aleatorio == true)
+            {
+                aleatorio = false;
+                diceIcon.SetActive(false);
+            }
+
+            else
+            {
+                aleatorio = true;
+                diceIcon.SetActive(true);
+
+            }
+
+        }
+
     }
 
     void CarregarTexturas()
@@ -32,7 +60,8 @@ public class changeAvatar : MonoBehaviour
             Texture2D texturaAleatoria = texturas[Random.Range(0, texturas.Count)];
 
             // Aplica a textura ao material do objeto
-            materialAlvo.mainTexture = texturaAleatoria;
+            gameObject.GetComponent<Renderer>().material.mainTexture = texturaAleatoria;
+            // materialAlvo.mainTexture = texturaAleatoria;
         }
         else
         {
