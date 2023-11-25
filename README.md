@@ -28,6 +28,9 @@ Espaço para pular. Tecla X altera para modo aleatório de avatar. Setas (esquer
 -  Game loop simples contendo: contador de início, sistema de pulo e checagem de indicativo de tropeço na corda;
 -  Restart com mesmo botão, o qual fará uma escolha nova de avatar e nova partida;
 
+<img src="desenhos.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+Desenhos dos avatares feitos pelos alunos do primeiro ano.
+
 ### Observações
 
 - O jogo foi programado em uma tarde;
@@ -45,3 +48,4 @@ Espaço para pular. Tecla X altera para modo aleatório de avatar. Setas (esquer
 - Polimentos como: sol animado, nuvens, grama e cores seguindo paleta da Peppa Pig;
 - Adição de dado para ensinar aleatoriedade (botão x) e seleção de avatar do tipo carrossel (setas esquerda e direita);
 - Adição de som de pulo e som de gameover;
+- Adição de 20 Avatares (8 do 1º Ano A e 12 do 1º Ano B)
