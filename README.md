@@ -12,6 +12,9 @@ Com isto, chegamos na idea de criarmos um jogo de pular corda digital (já que e
 
 O mapeamento do impacto educativo, ou de discussão deste tipo de jogo ainda será aqui registrado, precisando ser também analisada uma metodologia de apoio para tal empreitada. Porém, o que já foi previamente aqui pensando: abrir o entendimento para que as crianças possam construir seus jogos, futuramente, entender o impacto de uma produção híbrida, qual sentido cognitivo ou a longo prazo deste tipo de interação, de consumidores para investigadores.
 
+<img src="desenhos.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+Desenhos dos avatares feitos pelos alunos do primeiro ano.
+
 ### Desenvolvimento
 O jogo foi criado em Unity e possui interface simples, com o game loop rodando sem precisar de outra funcionalidade além de utilizar o mesmo botão. Durante o desenvolvimento, alguns acertos foram necessários, apesar da idea e implementação relativamente simples. A checagem dos colisores, a corda 3D, a funcionalidade de soltar o botão, balanço da dificuldade, entre outras, foram possíveis através do teste com uma criança de 7 anos (Nara).
 
@@ -27,9 +30,6 @@ Espaço para pular. Tecla X altera para modo aleatório de avatar. Setas (esquer
 - Sistema de importação de images aleatórias de uma pasta. A cada jogada, um novo avatar (criado pelas crianças) é importado para jogar;
 -  Game loop simples contendo: contador de início, sistema de pulo e checagem de indicativo de tropeço na corda;
 -  Restart com mesmo botão, o qual fará uma escolha nova de avatar e nova partida;
-
-<img src="desenhos.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
-Desenhos dos avatares feitos pelos alunos do primeiro ano.
 
 ### Observações
 
