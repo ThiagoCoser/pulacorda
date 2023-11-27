@@ -49,10 +49,10 @@ Obs: É recomendado um tapete de dança ou interface similar para utilizar os p�
 - Utilizei o Antimicrox para mapear os botões do tapete;
 
 
-### Atualizações da versão 0.6
+### Atualizações da versão 1.0
 
 - Mudança para URP;
 - Polimentos como: sol animado, nuvens, grama e cores seguindo paleta da Peppa Pig;
 - Adição de dado para ensinar aleatoriedade (botão x) e seleção de avatar do tipo carrossel (setas esquerda e direita);
-- Adição de som de pulo e som de gameover;
+- Adição de som de pulo e som de tropeço;
 - Adição de 20 Avatares (8 do 1º Ano A e 12 do 1º Ano B)
