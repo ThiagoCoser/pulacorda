@@ -10,7 +10,7 @@ O tema da escola deste semestre é sobre brinquedos e tivemos uma reunião com a
 
 Com isto, chegamos na ideia de criarmos um jogo de pular corda digital (já que esta foi uma das brincadeiras mais importantes do semestre) de maneira que os alunos pudessem participar na construção. Não de maneira a se programar (levamos em conta a importância do pensamento computacional e não a codificação), então algo de participação como criando avatares e claro, participando de jogadas coletivas.
 
-O mapeamento do impacto educativo, ou de discussão deste tipo de jogo ainda será aqui registrado, precisando ser também analisada uma metodologia de apoio para tal empreitada. Porém, o que já foi previamente aqui pensando: abrir o entendimento para que as crianças possam construir seus jogos, futuramente, entender o impacto de uma produção híbrida, qual sentido cognitivo ou a longo prazo deste tipo de interação, de consumidores para investigadores.
+O mapeamento do impacto educativo, ou de discussão deste tipo de jogo ainda será aqui registrado, precisando ser também analisada uma metodologia de apoio para tal empreitada. Porém, o que já foi previamente aqui pensando: abrir um entendimento para que as crianças possam pensar em construir seus jogos, futuramente; entender o impacto de uma produção híbrida, qual sentido cognitivo ou a longo prazo deste tipo de interação, de consumidores para investigadores.
 
 
 <img src="desenhos.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
@@ -18,8 +18,6 @@ Desenhos dos avatares feitos pelos alunos do primeiro ano.
 
 ### Desenvolvimento
 O jogo foi criado em Unity e possui interface simples, com o game loop rodando sem precisar de outra funcionalidade além de utilizar o mesmo botão. Durante o desenvolvimento, alguns acertos foram necessários, apesar da ideia e implementação relativamente simples. A checagem dos colisores, a corda 3D, a funcionalidade de soltar o botão, balanço da dificuldade, entre outras, foram possíveis através do teste com uma criança de 7 anos (Nara).
-
-
 
 
 <img src="tapete.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
@@ -45,6 +43,7 @@ Obs: É recomendado um tapete de dança ou interface similar para utilizar os p�
 - Utilizei o chatGPT para criar funções. Resultado bem satisfatório;
 - O gameplay pareceu funcionar bem, com engajamento. Porém, após multiplas jogadas e insistência em jogar, a crinaça pareceu irritada. Isto pode ser balanceado ao ser jogado em turma, sem excesso de maestria de habilidade;
 - Optei por retirar o contador de pulos, favorecendo a contagem por voz da turma;
+- O recurso de sorteio aleatório dos avatares, pode ser ativado e desativado. Pretendo com isso, falar sobre aleatoriedade com as crianças, levando um D4, D6 e um D20 em sala;
 - O mesmo com o score: inicialmente tinha pensando em utilizar um score para cada avatar, favorecendo a competição. Mas o jogo pareceu funcionar como está e assim ficará mais leve;
 - A dificuldade já está balanceada. Nara conseguiu, com muito esforço, em torno de 10 pulos. Pode-se adicionar mais dificuldade como aumento da velocidade da corda ou apertar outros botões do tapete durante os pulos da corda, mas não parece ser necessário no momento;
 - Utilizei o Antimicrox para mapear os botões do tapete;
