@@ -36,6 +36,7 @@ public class GameContoller : MonoBehaviour
             changeAvatarScript.GetComponent<changeAvatar>().TrocarTexturaAleatoria();
         }
 
+
         podeIniciar = false;
         GameOverTxt.SetActive(false);
 
