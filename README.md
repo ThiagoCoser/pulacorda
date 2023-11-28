@@ -33,7 +33,9 @@ Obs: É recomendado um tapete de dança ou interface similar para utilizar os p�
 
 ### Recursos
 
-- Sistema de importação de imagens aleatórias de uma pasta. A cada jogada, um novo avatar (criado pelas crianças) é importado para jogar;
+- Sistema automático de importação de imagens (avatares) para o personagem do jogo;
+- Ativar/desativar sistema de avatares aleatórios; A cada jogada, um novo avatar é atualizado no personagem;
+- Seleção manual dos avatares (esquerda e direita);
 -  Game loop simples contendo: contador de início, sistema de pulo e checagem de indicativo de tropeço na corda;
 -  Restart com mesmo botão, o qual fará uma escolha nova de avatar e nova partida;
 
@@ -41,10 +43,10 @@ Obs: É recomendado um tapete de dança ou interface similar para utilizar os p�
 
 - O jogo foi feito em três dias. Uma tarde para protótipo geral, e outro dia para para polimentos e ajustes;
 - Utilizei o chatGPT para criar funções. Resultado bem satisfatório;
-- O gameplay pareceu funcionar bem, com engajamento. Porém, após multiplas jogadas e insistência em jogar, a crinaça pareceu irritada. Isto pode ser balanceado ao ser jogado em turma, sem excesso de maestria de habilidade;
+- O gameplay pareceu funcionar bem, com engajamento. Porém, após múltiplas jogadas e insistência em jogar, a criança pareceu irritada (mas nada estatístico). Isto pode ser eventualmente balanceado ao ser jogado em turma, sem excesso de maestria de habilidade;
 - Optei por retirar o contador de pulos, favorecendo a contagem por voz da turma;
 - O recurso de sorteio aleatório dos avatares, pode ser ativado e desativado. Pretendo com isso, falar sobre aleatoriedade com as crianças, levando um D4, D6 e um D20 em sala;
-- O mesmo com o score: inicialmente tinha pensando em utilizar um score para cada avatar, favorecendo a competição. Mas o jogo pareceu funcionar como está e assim ficará mais leve;
+- O mesmo com o placar: inicialmente tinha pensando em utilizar uma pontuação para cada avatar, favorecendo a competição. Mas o jogo pareceu funcionar como está e assim ficará mais leve;
 - A dificuldade já está balanceada. Nara conseguiu, com muito esforço, em torno de 10 pulos. Pode-se adicionar mais dificuldade como aumento da velocidade da corda ou apertar outros botões do tapete durante os pulos da corda, mas não parece ser necessário no momento;
 - Utilizei o Antimicrox para mapear os botões do tapete;
 
