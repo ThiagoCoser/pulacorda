@@ -27,7 +27,7 @@ O jogo possui a proposta de fazer um teste de usabilidade com hardwares alternat
 
 - Espaço: pula;
 - Tecla "x": altera para modo aleatório de avatar.
--  Setas, esquerda e direta: mudam avatar.
+- Setas, esquerda e direta: mudam avatar.
 
 Obs: É recomendado um tapete de dança ou interface similar para utilizar os pés.
 
@@ -37,7 +37,7 @@ Obs: É recomendado um tapete de dança ou interface similar para utilizar os p�
 - Ativar/desativar sistema de avatares aleatórios; A cada jogada, um novo avatar é atualizado no personagem;
 - Seleção manual dos avatares (esquerda e direita);
 -  Game loop simples contendo: contador de início, sistema de pulo e checagem de indicativo de tropeço na corda;
--  Restart com mesmo botão, o qual fará uma escolha nova de avatar e nova partida;
+-  Restart com mesmo botão, o qual fará uma nova partida e uma escolha nova de avatar (caso modo aleatório esteja ativado);
 
 ### Observações
 
