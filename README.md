@@ -28,6 +28,7 @@ O jogo possui a proposta de fazer um teste de usabilidade com hardwares alternat
 - Espaço: pula;
 - Tecla "x": altera para modo aleatório de avatar.
 - Setas, esquerda e direta: mudam avatar.
+- Botão Escape para sair;
 
 Obs: É recomendado um tapete de dança ou interface similar para utilizar os pés.
 
@@ -48,10 +49,15 @@ Obs: É recomendado um tapete de dança ou interface similar para utilizar os p�
 - O recurso de sorteio aleatório dos avatares, pode ser ativado e desativado. Pretendo com isso, falar sobre aleatoriedade com as crianças, levando um D4, D6 e um D20 em sala;
 - O mesmo com o placar: inicialmente tinha pensando em utilizar uma pontuação para cada avatar, favorecendo a competição. Mas o jogo pareceu funcionar como está e assim ficará mais leve;
 - A dificuldade já está balanceada. Nara conseguiu, com muito esforço, em torno de 10 pulos. Pode-se adicionar mais dificuldade como aumento da velocidade da corda ou apertar outros botões do tapete durante os pulos da corda, mas não parece ser necessário no momento;
-- Utilizei o Antimicrox para mapear os botões do tapete;
-
+- Utilizei o Antimicrox para mapear os botões do tapete (release já está com arquivo de configuração dos botões);
 
 ### Atualizações da versão 1.0
+- Alinhamento itens canvas em diferentes resoluções;
+- Botão Escape para sair;
+- Organização do projeto;
+- Alguns consertos de bugs;
+
+### Atualizações da versão 0.9
 
 - Mudança para URP;
 - Polimentos como: sol animado, nuvens, grama e cores seguindo paleta da Peppa Pig;
